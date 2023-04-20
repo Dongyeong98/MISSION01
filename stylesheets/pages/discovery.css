@@ -3,21 +3,175 @@ html ,body{
   margin: 0;
   padding: 0;
 }
-.logo{
-  width: 176px;
-  height: 40px;
+header h1{
+  position: relative;
+  text-align: center;
+  margin: 100px 0 48px 0;
 }
-.core{
-  width: 366px;
-  height: 28px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+a {
+  text-decoration-line: none;
+}
+.title-box1, .pipe, h4 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+h2{
+  margin: 10px;
+  font-size: 24px;
+}
+.pipe {
+  color: var(--color-sub-title);
+  line-height: 0.5;
+}
+section{
+  width: 1020px;
+  height: 1010px;
   margin: 0 auto;
 }
-h2,h4{
-  margin: 0;
+.core{
+  margin-bottom: 24px;
 }
-.pipe{
-  margin: 10px;
+
+.a{
+    position: relative;
+    display: inline-block;
 }
+.box1{
+  width: 502px;
+  height: 310px;
+  float: left;
+  border: 1px solid var(--color-border-color);
+  margin-right: 16px;
+  box-sizing: border-box;
+  padding: 20px 28px 20px;
+}
+.box2{
+  width: 502px;
+  height: 310px;
+  border: 1px solid var(--color-border-color);
+  float: left;
+  padding: 20px 28px 20px;
+}
+.box3{
+  width: 243px;
+  height: 310px;
+  float: left;
+  border: 1px solid var(--color-border-color);
+  margin: 16px 16px 16px 0;
+  padding: 14px 22px 14px 21px;
+}
+.box4{
+  width: 243px;
+  height: 310px;
+  float: left;
+  border: 1px solid var(--color-border-color);
+  margin: 16px 16px 16px 0;
+  padding: 14px 22px 14px 21px;
+}
+.box5{
+  width: 243px;
+  height: 310px;
+  float: left;
+  border: 1px solid var(--color-border-color);
+  margin: 16px 16px 16px 0;
+  padding: 14px 22px 14px 21px;
+}
+.box6{
+  width: 243px;
+  height: 310px;
+  float: left;
+  border: 1px solid var(--color-border-color);
+  margin: 16px 0 16px 0;
+  padding: 14px 22px 14px 21px;
+}
+.box7{
+  width: 502px;
+  height: 310px;
+  float: left;
+  border: 1px solid var(--color-border-color);
+  margin:0 16px 0 0;
+  padding: 20px 28px 20px;
+}
+.box8{
+  width: 243px;
+  height: 310px;
+  float: left;
+  border: 1px solid var(--color-border-color);
+  margin-right: 16px;
+  padding: 14px 22px 14px 21px;
+}
+.box9{
+  width: 243px;
+  height: 310px;
+  float: left;
+  border: 1px solid var(--color-border-color);
+  padding: 14px 22px 14px 21px;
+}
+
+/* .buy{
+  width: 112px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 40px;
+  text-align: center;
+  line-height: center;
+  background-color: var(--color-move-blue);
+}
+.buy-btn{
+  font-size: 14px;
+  border: 0;
+  padding: 5px 15px 5px;
+  color: var(--color-white);
+  background-color: var(--color-move-blue);
+} */
+button:focus {
+  outline: none;
+}
+.active-buy{
+  position: relative;
+  bottom:40px;
+}
+
+.active-btn{
+  position: relative;
+  width: 42px;
+  height: 42px;
+  bottom:13px;
+  background-color: var(--color-active-box);
+  border: 0;
+  color: var(--color-active-btn);
+  
+}
+.box1:hover,.box1:focus,.box2:hover,.box2:focus,.box3:hover,.box3:focus,.box4:hover,.box4:focus,.box5:hover,.box6:focus,
+.box7:hover,.box7:focus,.box8:hover,.box8:focus,.box9:hover,.box9:focus
+{
+  border: 1px solid var(--color-move-blue);
+}
+.active-btn:hover::before ,
+.active-btn:focus::before {
+  content: "구매하기";
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 112px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  background-color: var(--color-move-blue);
+  color: var(--color-white);
+  
+}
+
+
+
+
+
+
+
+

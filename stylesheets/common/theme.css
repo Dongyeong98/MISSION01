@@ -1,10 +1,13 @@
 /* Theme 스타일 작성 */
 :root{
   --color-blue:#0096e4;
+  --color-move-blue:#0074E9;
   --color-red:#e52330;
   --color-yellogreen:#c7cd1d;
-  --color-gray:#c4c4c4;
+  --color-sub-title: #AAA9A9;
+  --color-border-color:#c4c4c4;
   --color-white:#ffffff;
-  --color-blackgray:rgba(0,0,0,0.2);
+  --color-active-box:rgba(0,0,0,0.2);
+  --color-active-btn:#F3F3F3;
   --color-black:#181818;
 }
