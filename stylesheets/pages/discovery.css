@@ -5,8 +5,15 @@ html ,body{
 }
 header h1{
   position: relative;
-  text-align: center;
   margin: 100px 0 48px 0;
+}
+.logo-box{
+  margin: 0 auto;
+  width: 1020px;
+ 
+}
+.logo-box .logo{
+  left: 0;
 }
 a {
   text-decoration-line: none;
@@ -165,8 +172,7 @@ button:focus {
   white-space: nowrap;
   background-color: var(--color-move-blue);
   color: var(--color-white);
-  
-}
+} 
 
 
 
